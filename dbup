@@ -4,7 +4,8 @@
 
 $candidateAutoloaders = [
     __DIR__ . '/vendor/autoload.php',  // This file is placed on the Dbup root
-    __DIR__ . '/../autoload.php',  // This file is placed on the vendor/bin by Composer
+    __DIR__ . '/../../autoload.php',  // This file is placed on the vendor/brtriver/dbup by Composer (symlinked)
+    __DIR__ . '/../autoload.php',  // This file is placed on the vendor/bin by Composer (hard-copied)
 ];
 
 $autoloaderPath = '';
